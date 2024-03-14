@@ -103,4 +103,33 @@ p {
     color: var(--rosa);
 }
 
-/*@media all and (max-width: 768px) {}
+
+
+@media (max-width: 1000px){
+
+    .cabecalho{
+        padding: 5%;
+    }
+
+    .menu{
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+       
+    }
+
+    .apresentacao_conteudo{
+        width:auto;
+    }
+
+    .imagem{
+        width: 60%;
+        align-self: center;
+    }
+.botoes{
+    flex-direction: row;
+}
+}
